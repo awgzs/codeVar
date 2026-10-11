@@ -4,5 +4,8 @@ const config = require('./src/config');
 const style = require('./src/style');
 
 (function () {
-    style.core(config.youDaoApi,config.getParams(),style.bigHump);
+    var params = config.getParams();
+    if (params) {
+        style.core(config.youDaoApi, params, style.bigHump);
+    }
 })();

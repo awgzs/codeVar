@@ -6,6 +6,13 @@
 	<string>codevar</string>
 	<key>category</key>
 	<string>Tools</string>
+	<key>variables</key>
+	<dict>
+		<key>CODEVAR_APP_KEY</key>
+		<string>在这里填写你的有道翻译 appKey（ai.youdao.com 创建应用获取）</string>
+		<key>CODEVAR_SECRET_KEY</key>
+		<string>在这里填写你的有道翻译 secretKey</string>
+	</dict>
 	<key>connections</key>
 	<dict>
 		<key>0A329E4B-AB21-41F7-A869-D878DF4EAE92</key>
